@@ -36,6 +36,10 @@ public class MyArray<T>  {
         return array[id];
     }
 
+    public T[] getArray(){
+        return this.array;
+    }
+
     public T remove(int index) {
         T element = array[index];
         System.arraycopy(array, index + 1, array, index, arraySize - index - 1);
@@ -53,6 +57,19 @@ public class MyArray<T>  {
             System.out.print(elem + ", ");
         }
     }
+
+    static public void sort (int[] array){
+        boolean isSorted = true;
+        int id = 1;
+        int temp;
+
+        for (int i = 0; i < array.length; i++) {
+
+        }
+
+    }
+
+
 
 
 }
